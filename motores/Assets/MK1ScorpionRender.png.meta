@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8ce8bd36a1669344baace65c1e101827
+guid: 197aafe87c2addc4788accb8710cfad4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -595174508999503393
-    second: artpoin-corinthians-futebol10_0
+      213: 2397379459485297961
+    second: MK1ScorpionRender_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: artpoin-corinthians-futebol10_0
+      name: MK1ScorpionRender_0
       rect:
         serializedVersion: 2
-        x: 182
-        y: 524
-        width: 2115
-        height: 2460
+        x: 7
+        y: 0
+        width: 200
+        height: 471
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd197bbffe38db7f0800000000000000
-      internalID: -595174508999503393
+      spriteID: 92d6072aae3354120800000000000000
+      internalID: 2397379459485297961
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      artpoin-corinthians-futebol10_0: -595174508999503393
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
