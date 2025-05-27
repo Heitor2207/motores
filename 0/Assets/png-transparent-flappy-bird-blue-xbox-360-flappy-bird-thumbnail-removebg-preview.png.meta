@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-transparent-flappy-bird-blue-xbox-360-flappy-bird-thumbnail-removebg-preview_0: -1424848668296204855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
