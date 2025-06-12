@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c5dd760ceaf9bc84ab20c4744abebf31
+guid: 7b20b4726f46b234e9ad0c0cb913f956
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4668227323012713794
-    second: images 1_0
+      213: -7698697037265510086
+    second: png-transparent-pixel-art-2d-platform-text-computer-computer-wallpaper-thumbnail-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: images 1_0
+      name: png-transparent-pixel-art-2d-platform-text-computer-computer-wallpaper-thumbnail-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 168
-        height: 300
+        x: 60
+        y: 44
+        width: 240
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb2fd09abff173fb0800000000000000
-      internalID: -4668227323012713794
+      spriteID: a31ef6485dbb82590800000000000000
+      internalID: -7698697037265510086
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      images 1_0: -4668227323012713794
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
