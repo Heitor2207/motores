@@ -1,33 +1,30 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class FlappyController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float jumpForce = 8f; // Força do pulo (aumentada)
+    public float forwardSpeed = 2f; // Velocidade horizontal constante
+
     private Rigidbody2D rb;
-    private Vector2 movement;
-    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        // Input de movimento
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        // Flipar o personagem se estiver se movendo horizontalmente
-        if (movement.x < 0)
-            spriteRenderer.flipX = true;  // Virar para a esquerda
-        else if (movement.x > 0)
-            spriteRenderer.flipX = false; // Virar para a direita
+        // Pulo com espaço
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f); // zera só a velocidade Y
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        // Movimento horizontal constante
+        rb.linearVelocity = new Vector2(forwardSpeed, rb.linearVelocity.y);
     }
 }
