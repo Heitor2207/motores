@@ -8,7 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: images 1
+<<<<<<< HEAD
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+=======
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> e3cd4548bff072da9859a0258cb7c0d41f74a596
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -17,8 +21,12 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
+<<<<<<< HEAD
   stringTagMap:
     RenderType: Opaque
+=======
+  stringTagMap: {}
+>>>>>>> e3cd4548bff072da9859a0258cb7c0d41f74a596
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -26,7 +34,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 9ea600c9ee486ca43a7371365db3b655, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: c5dd760ceaf9bc84ab20c4744abebf31, type: 3}
+>>>>>>> e3cd4548bff072da9859a0258cb7c0d41f74a596
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -50,7 +62,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 9ea600c9ee486ca43a7371365db3b655, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: c5dd760ceaf9bc84ab20c4744abebf31, type: 3}
+>>>>>>> e3cd4548bff072da9859a0258cb7c0d41f74a596
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -121,7 +137,11 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+<<<<<<< HEAD
 --- !u!114 &2236542538173866652
+=======
+--- !u!114 &1095283989939478189
+>>>>>>> e3cd4548bff072da9859a0258cb7c0d41f74a596
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
