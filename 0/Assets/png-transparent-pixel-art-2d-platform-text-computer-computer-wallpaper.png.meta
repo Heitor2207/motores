@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-transparent-pixel-art-2d-platform-text-computer-computer-wallpaper_0: 6360694304927067231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

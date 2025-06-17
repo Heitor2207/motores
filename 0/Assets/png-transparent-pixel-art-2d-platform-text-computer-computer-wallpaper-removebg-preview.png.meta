@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-transparent-pixel-art-2d-platform-text-computer-computer-wallpaper-removebg-preview_0: -678256139617598504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
